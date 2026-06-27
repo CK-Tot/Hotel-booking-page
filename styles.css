@@ -68,11 +68,10 @@ main {
 }
 
 .guest-nav .active {
-     background: rgb(255, 255, 255);
-     border-radius: 10px;
+     
 }
 
-.guest-nav li:hover {
+.guest-nav li a:hover {
     background: rgb(255, 255, 255);
     border-radius: 10px;
     
@@ -82,10 +81,9 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
 }
-
-
-
 
 
 .badge {
@@ -107,7 +105,6 @@ main {
     padding: 9px;
     position: relative;
     width: 100%;
-    margin-bottom: 30px;
     overflow: hidden;
     border-radius: 15px;
 }
