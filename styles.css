@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fraunces", serif;
+}
+
+body {
+    max-width: 1440px;
+    min-height: 100vh;
+    background: rgb(251, 246, 239);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    width: 100%;
+}
+
+
+.sidebar {
+    border-right: 1px solid #000000;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px;
+}
+
+.logo {
+    border-bottom: 1px solid #d8d5d5;
+}
+
+.logo a img {
+    width: 100px;
+}
+
+
+main {
+    padding: 20px;
+
+}
+
+
+
+
+.attribution { font-size: 0.6875rem; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.attribution {
+    margin-top: auto;
+}
+
+.guest-nav {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.guest-nav li a{
+    text-decoration: none;
+    color: #676666;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 10px;
+}
+
+.guest-nav .active {
+     background: rgb(255, 255, 255);
+     border-radius: 10px;
+}
+
+.guest-nav li:hover {
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    
+}
+
+.guest-nav .active {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+.badge {
+    background: hsl(15, 74%, 41%);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+
+.weather-card {
+    background: hsl(45, 100%, 74%);
+    margin-bottom: 30px;
+    padding: 9px;
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.weather-location, .weather-desc {
+    font-size: 0.85rem;
+    color: #868584;
+    
+}
+
+.weather-temp {
+    padding: 5px 0;
+    font-weight: 500;
+    color: #4d4d4d;
+}
+
+.sun-logo {
+    position: absolute;
+    top: -20px;
+    right: -10px;
+    width: 65px;
+}
+
+.sidebar-footer {
+    border-top: 1px solid #c8c8c8;
+    padding-top: 30px;
+    color: #959595;
+}
+
+.sidebar-footer p{
+    padding: 5px 0;
+    font-size: 0.95rem;
+}
+
+
+.bottom-content {
+    margin-top: auto;
+}

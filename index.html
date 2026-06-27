@@ -5,41 +5,87 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-
+  <link rel="stylesheet" href="styles.css">
   <title>Frontend Mentor | Hotel booking confirmation page</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 0.6875rem; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  
 </head>
 <body>
 
-  <!-- Sidebar starts -->
+  <div class="container">
+    <!-- Sidebar starts -->
+    <aside class="sidebar">
+      <!-- logo -->
+      <div class="logo">
+        <a class="logo-link" href="index.html"><img src="/assets/images/logo.svg" alt="logo" class="logo-img"></a>
+      </div>
+      
 
-  Maison Soleil
+      <!-- Guest navigation -->
+      <ul class="guest-nav">
+        <li class="active">
+          <a href="#">
+            <img src="/assets/images/icon-bed.svg" alt="">
+            <span>Your stay</span>
+          </a>
+          <span class="badge">1</span>
+        </li>
+        <li>
+          <a href="#">
+            <img src="/assets/images/icon-house.svg" alt="">
+            <span>The house</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="/assets/images/icon-pin.svg" alt="">
+            <span>Around town</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="/assets/images/icon-breakfast-outline.svg" alt="">
+            <span>Breakfast</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="/assets/images/icon-mail.svg" alt="">
+            <span>Messages</span>
+          </a>
+        </li>
+      </ul>
+       
 
-  <!-- Guest navigation -->
-  Your stay
-  1
-  The house
-  Around town
-  Breakfast
-  Messages
+        <!-- Local weather -->
 
-  <!-- Local weather -->
-  Today in Cassis
-  27°
-  Sunny · light breeze
+        <div class="bottom-content">
 
-  Est. 1987
-  Maison Soleil · 12 Rue des Oliviers · Cassis
-  © 2026 Maison Soleil
+           <div class="weather-card">
+
+            <p class="weather-location">Today in Cassis</p>
+            <h2 class="weather-temp">27°</h2>
+            <p class="weather-desc">Sunny · light breeze</p>
+            <img class="sun-logo" src="/assets/images/icon-weather.svg" alt="">
+        </div>
+      
+      <div class="sidebar-footer">
+        <p>Est. 1987</p>
+        <p class="address">Maison Soleil · 12 Rue des Oliviers · Cassis</p>
+        <p class="copyright">© 2026 Maison Soleil</p>
+      </div>
+        </div>
+  
+     
+  
+  
 
   <!-- Sidebar ends -->
 
-  <!-- Main content starts -->
+    </aside>
+    <main class="dashboard">
+      <!-- Main content starts -->
 
   Booking · Confirmed
   Bienvenue, Lucia.
@@ -117,9 +163,11 @@
 
   <!-- Main content ends -->
 
+    </main>
+  </div>
   <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Ck Tot</a>.
   </footer>
 </body>
 </html>
