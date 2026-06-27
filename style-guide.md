@@ -13,15 +13,15 @@ The designs were created to the following widths:
 
 ### Neutral
 
-- Neutral 900: hsl(33, 15%, 15%)
+- Neutral 900: #2c2721
 - Neutral 800: hsl(33, 22%, 20%)
 - Neutral 700: hsl(32, 20%, 29%)
 - Neutral 600: hsl(33, 17%, 41%)
-- Neutral 400: hsl(36, 22%, 86%)
-- Neutral 200: hsl(30, 24%, 93%)
-- Neutral 100: hsl(35, 60%, 96%)
-- Neutral 50: hsl(40, 60%, 98%)
-- Neutral 0: hsl(0, 0%, 100%)
+- Neutral 400: #e3ddd3
+- Neutral 200: #f1ede9
+- Neutral 100: #fbf6ef
+- Neutral 50: #fdfbf7
+- Neutral 0: #ffffff
 
 ### Sun
 
