@@ -205,9 +205,8 @@ main {
     /* padding: 30px; */
     position: relative;
     height: 500px;
-    width: 700px;
-    margin: 30px auto;
-    padding: 0;
+    width: 950px;
+    margin: auto;
 
 }
 
@@ -220,12 +219,14 @@ main {
     width: 400px;
     padding: 10px;
     border-radius: 10px;
-    box-shadow: 0 4px 30px 10px rgb(0, 0, 0, 0.1);
+    box-shadow: 0 4px 30px 10px rgba(0, 0, 0, 0.1);
     position: absolute;
-    top: 30px;
-    left: 50px;
-    z-index: 1;
-    transform: rotate(5deg);
+    /* Center the card perfectly in the container */
+    top: 60px;
+    left: 50%;
+    z-index: 2;
+    transition: all  0.45s ease;
+    transform: translateX(-95%) rotate(-6deg);
 }
 
 /* Card header */
@@ -330,6 +331,8 @@ main {
 }
 
 
+
+
 /* =====================
    HOST NOTE CARD
    ===================== */
@@ -340,17 +343,17 @@ main {
     padding: 10px;
     border-radius: 15px;
     display: inline-block;
-    box-shadow: 0 4px 30px 10px rgb(0, 0, 0, 0.1);
+    box-shadow: 0 4px 30px 10px rgba(0, 0, 0, 0.1);
     position: absolute;
-    /* top: 50%; */
-    top: 30px;
-    right: -10px;
-    z-index: 2;
-    transform: rotate(-10deg);
-    transform-origin: top center;
-    transition: all 0.3s ease;
-
+    /* Center it */
+    top: 60px;
+    left: 50%;
+    z-index: 3;
+    transform: translateX(-5%) rotate(6deg);
+    transition: all 0.45s ease;
 }
+
+
 
 .note-card .divider {
     border-top: 1px dashed #a6a4a4;
@@ -418,9 +421,21 @@ main {
    GUEST INFO ROW
    ===================== */
 .img-container {
-    display: flex;
-    justify-content: center;
-    margin: auto;
+    position: absolute;
+    /* top: 50%;
+    left: 50%; */
+    inset: 0;
+    display: grid;
+    place-items: center;
+    /* transform: translate(-50%, -50%); */
+    z-index: 0;
+    opacity: 0;
+    transition: all 0.4s ease;
+
+}
+
+.card-container:hover .img-container {
+    opacity: 1;
 }
 
 .directions {
@@ -447,4 +462,25 @@ main {
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+
+/* =====================
+   HOVER EFFECTS
+   ===================== */
+/* Reveal the sun image */
+.card-container:hover .booking-card{
+    transform:
+        translateX(-135%)
+        rotate(-12deg);
+}
+
+.card-container:hover .note-card{
+    transform:
+        translateX(35%)
+        rotate(12deg);
+}
+
+.card-container:hover .img-container{
+    opacity:1;
 }
