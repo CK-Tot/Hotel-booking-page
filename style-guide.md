@@ -39,11 +39,11 @@ The designs were created to the following widths:
 
 ### Blue
 
-- Blue 500: hsl(230, 49%, 56%)
+- Blue 500: #586ac6
 
 ### Rose
 
-- Rose 500: hsl(340, 48%, 52%)
+- Rose 500: #bf4a71
 
 ## Typography
 

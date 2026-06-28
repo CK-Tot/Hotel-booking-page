@@ -420,6 +420,117 @@ main {
 /* =====================
    GUEST INFO ROW
    ===================== */
+.info-card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+   padding: 20px 0;
+}
+
+.info-card-container .card {
+    background: #fff;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0px 30px 100px 0px  rgba(0, 0, 0, 0.1);
+    border: 1px solid #dcdcdc;
+}
+
+.info-card-container .card .card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    
+}
+
+.info-card-container .card .card-header span {
+    display: flex;
+    align-items: center;
+    color: #b6421b;
+    gap: 10px;
+    text-transform: uppercase;
+}
+
+.info-card-container .card-2 .card-header span{
+    color: #586ac6;
+   
+}
+
+
+.info-card-container .card .card-header span div {
+    background: #b6421b;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 9px;
+}
+
+
+.info-card-container .card-2 .card-header span div {
+    background: #586ac6;
+}
+
+.info-card-container .card-3 .card-header span div {
+    background: #bf4a71;
+}
+
+.info-card-container .card-3 .card-header span {
+    color: #bf4a71;
+}
+
+
+.card-check-in-box, .breakfast-info {
+    padding: 10px;
+}
+
+.card-check-in-box h3, .breakfast-info h3 {
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.card-check-in-box p, .breakfast-info p {
+    color: #959494;
+
+}
+
+.check-in-note p{
+    color: #757474;
+
+}
+
+.network-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+.network-box div {
+    display: flex;
+    justify-content: space-between;
+    background: #f0efef;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.network-box div p {
+    text-transform: uppercase;
+    color: #7f7d7d;
+}
+
+.network-box div .password {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.network-box div .password a {
+    text-decoration: none;
+    color: #a8a5a5;
+    text-transform: uppercase;
+}
+
 .img-container {
     position: absolute;
     /* top: 50%;
