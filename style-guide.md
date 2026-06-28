@@ -25,17 +25,17 @@ The designs were created to the following widths:
 
 ### Sun
 
-- Sun 500: hsl(42, 83%, 58%)
-- Sun 300: hsl(44, 84%, 75%)
-- Sun 200: hsl(45, 100%, 74%)
-- Sun 50: hsl(41, 100%, 93%)
+- Sun 500: #edb73b
+- Sun 300: #f5d88a
+- Sun 200: #ffde7a
+- Sun 50: #fff4db
 
 ### Terracotta
 
-- Terracotta 700: hsl(15, 69%, 37%)
-- Terracotta 600: hsl(15, 74%, 41%)
-- Terracotta 500: hsl(18, 62%, 47%)
-- Terracotta 400: hsl(22, 72%, 56%)
+- Terracotta 700: #9f3e1d
+- Terracotta 600: #b6421b
+- Terracotta 500: #c25a2e
+- Terracotta 400: #e0793e
 
 ### Blue
 

@@ -197,8 +197,9 @@ main {
 
 .card-container {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     margin: 30px;
+
     
 }
 
@@ -259,6 +260,7 @@ main {
 .date-container h3 {
     color: #5b5a5a;
     font-weight: 500;
+    font-size: 2rem;
 }
 
 .price {
@@ -302,4 +304,99 @@ main {
 
 .barcode-container img {
     width: 80px;
+}
+
+
+.note-card {
+    background: #b6421b;
+    color: #bdbaba;
+    width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+    border-radius: 15px;
+    display: inline-block;
+   
+}
+
+
+.note-card .divider {
+    border-top: 1px dashed #a6a4a4;
+    width: 100%;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+
+.top-container {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.top-container p {
+    line-height: 1.6;
+}
+
+.note-intro {
+    color: #f5d88a;
+    line-height: 1.6;
+    font-style: italic;
+    padding: 10px 0;
+}
+
+.note-text {
+    margin-bottom: 10px;
+    line-height: 1.7;
+    
+}
+
+.note-text h3 {
+    color: #dcdcdc;
+    margin-bottom: 10px;
+    font-size: 2.2rem;
+    font-style: italic;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.note-text p {
+    margin-bottom: 20px;
+    font-style: italic;
+    color: #cdcdcd;
+}
+
+.note-card-bottom {
+    padding: 10px 0;
+}
+
+.note-card-bottom p {
+    padding-bottom: 7px;
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.note-card-bottom h4 {
+    color: #d8d5d5;
+}
+
+.img-container {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin: auto;
+}
+
+.directions {
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    gap: 10px;
+    margin-bottom: 20px;
+    font-size: 14px;
 }
