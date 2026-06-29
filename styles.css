@@ -180,7 +180,7 @@ main {
 
 /* Buttons */
 .btn {
-    padding: 7px 30px;
+    padding: 10px 30px;
     background: transparent;
     border: 1px solid #959595;
     border-radius: 20px;
@@ -423,7 +423,7 @@ main {
 .info-card-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
+    gap: 10px;
    padding: 20px 0;
 }
 
@@ -523,6 +523,14 @@ main {
     display: flex;
     align-items: center;
     gap: 10px;
+}
+
+.card-numbers {
+    font-size: 1.4rem;
+}
+
+.card-notes {
+    padding: 10px;
 }
 
 .network-box div .password a {
